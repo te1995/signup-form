@@ -1,0 +1,146 @@
+@import '../../node_modules/modern-normalize/';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 0px;
+    background-color: rgba(248, 248, 248, 0.747);
+    
+}
+
+.leftside {
+    background-image: url(images/image-flower.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center;
+    height: 100vh;
+    width: 40vw;
+}
+
+.logo {
+    display: flex;
+    background-color: rgb(0,0,0,0.5);
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 19.3%;
+}
+
+.logo p {
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.logo img {
+    height: 15%;
+    width: 15%;
+
+}
+
+.rightside {
+    width: 60vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.top {
+    height: 35.6vh;
+    font-weight: 800;
+    box-sizing: border-box;
+    padding-top: 150px;
+    font-size: 1.5em;
+    padding-left: 50px;
+    padding-right: 300px;
+
+}
+
+.actualfields {
+    height: 30vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: 1;
+    gap: 40px;
+}
+
+.textfields {
+    box-shadow: 2px 7px 20px grey;
+    padding-left: 50px;
+    background-color: white;
+    padding: 50px;
+    padding-top: 20px;
+    height: 30vh;
+    padding-right: 300px;
+}
+
+legend {
+    font-size: 1.4em;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+
+
+
+.formright {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+input:invalid {
+    border: 1px solid rgb(196, 0, 0);
+}
+
+input:required {
+    border: 1px solid rgb(196, 0, 0);
+
+}
+
+
+.formleft {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+.actualfields {
+    box-sizing: border-box;
+    gap: 50px;
+    display: flex;
+    height: auto;
+}
+
+input {
+    border-color: lightgrey;
+    border-radius: 5px 5px 5px 5px;
+    width: auto;
+    height: 2.2em;
+    margin-bottom: 5px;
+}
+
+
+.bottom {
+    height: 34.4vh;
+    padding: 50px;
+    padding-top: 40px;
+    height: 30vh;
+    padding-right: 300px;
+}
+
+button {
+    background-color: rgb(238, 164, 176);
+    height: 50px;
+    width: 200px;
+    color: black;
+    font-weight: 900px;
+    border-color: white;
+    border-radius: 5px 5px 5px 5px;
+}
